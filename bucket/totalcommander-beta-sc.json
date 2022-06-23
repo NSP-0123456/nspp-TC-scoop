@@ -4,22 +4,6 @@
     "homepage": "https://www.ghisler.com",
     "license": "Shareware",
     "architecture": {
-        "64bit": {
-            "url": "https://www.totalcommander.ch/beta/tc1050x64_rc3.exe",
-            "hash": "bba6be232d62b8e7df22f2c338f26b706ac93a5541a966638e0c10404ce19503",
-            "bin": [
-                [
-                    "TOTALCMD64.EXE",
-                    "tcmd"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "TOTALCMD64.EXE",
-                    "Total Commander (beta)"
-                ]
-            ]
-        },
         "32bit": {
             "url": "https://www.totalcommander.ch/beta/tc1050x32_rc3.exe",
             "hash": "42034fb67e68229c3bbcc114b0757d03069fb173e4e00744cacf45d758f4cc0b",
@@ -36,7 +20,7 @@
                 ]
             ]
         },
-        "32_64bit": {
+        "64bit": {
             "url": "https://www.totalcommander.ch/beta/tc1050x32_64_rc3.exe",
             "hash": "77cc35a188fbef23117b064e4446fa829259d4b0b3fb403f72397913fc1f1de3",
             "bin": [
@@ -104,13 +88,10 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": {
-                "url": "https://www.totalcommander.ch/beta/tc$matchVerx64_$matchBuild.exe"
-            },
             "32bit": {
                 "url": "https://www.totalcommander.ch/beta/tc$matchVerx32_$matchBuild.exe"
             },
-            "32_64bit": {
+            "64bit": {
                 "url": "https://www.totalcommander.ch/beta/tc$matchVerx32_64_$matchBuild.exe"
             }
         }

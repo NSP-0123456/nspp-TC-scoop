@@ -11,6 +11,10 @@
                 [
                     "TOTALCMD64.EXE",
                     "tc"
+                ],
+                 [
+                    "TOTALCMD.EXE",
+                    "tc32"
                 ]
             ],
             "shortcuts": [
@@ -54,6 +58,7 @@
 	"icons",
 	"Filter64",
 	"Filter32",
+	"darkhelp2"
 	"extDir",
 	"javalib",
         "language",
@@ -83,7 +88,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.totalcommander.ch/win/tcmd$cleanVersionx64.exe"
+                "url": "https://www.totalcommander.ch/win/tcmd$cleanVersionxx32_64.exe"
             },
             "32bit": {
                 "url": "https://www.totalcommander.ch/win/tcmd$cleanVersionx32.exe"
